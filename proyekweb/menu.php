@@ -33,7 +33,7 @@
             <a href="#">Lihat Menu</a>
             <a href="#">Pesan Sekarang</a>
         </div>
-        <img src="../asstes/images/rumah.jpg" alt="Gambar">
+        <img src="../assets/images/rumah.jpg" alt="Gambar">
     </section>
 
     <section class ="promo">
