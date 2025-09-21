@@ -1,0 +1,68 @@
+.logo {
+    font-family: "pacifico", cursive;
+    display: flex;
+    font-size: 28px;
+    font-weight: 400;
+    align-self: flex-start;
+}
+.left, .right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    flex-direction: column;
+    padding: 20px;
+}
+.forgot{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.btn-primary{
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+.btn-google{
+    background-color: white;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.footer{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #888;
+}
+.right{
+    background: #eee;
+}
+.section-img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero, .promo, .menu, .contact, .testimoni {padding:50px 30px;}
+.hero, .promo {display:flex; justify-content: space-between; align-items: center; gap: 30px;}
+.hero img {width: 100%; height: auto; border-radius: 10px; background: #ddd;}
+.promo img {width: 50%; height: auto; border-radius: 10px;}
+.menu img {width: 180px; height: auto; background: #ddd;}
+.btn {display: inline-block; margin: 5px 10px 5px 0; padding: 10px 20px; background: #333; color: #fff; text-decoration: none;}
+.menu-items{display: flex; justify-content: space-between; gap: 20px;}
+.menu-item{flex: 1; text-align: center;}
+.menu-item img{height: 150px; background: #ddd; width: 100%;}
+.contact{background: #f4f4f4;}
+.contact-info{margin-bottom: 20px;}
+.map{background: #ddd; height: 300px;}
+.testimoni-items{display: flex; gap: 20px; margin-top: 20px;}
+.testimoni-item{flex: 1; border: 1px solid #ddd; padding: 20px; border-radius: 8px;}
+.stars{color: gold;}
