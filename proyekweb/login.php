@@ -67,7 +67,7 @@
     <div class="right">
         <div class="section-img">
             <div class="section-img">
-                <img src="image/1.png" alt="">
+                <img src="../assets/images/1.png" alt="">
             </div>
         </div>
     </div>

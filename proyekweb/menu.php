@@ -33,7 +33,7 @@
             <a href="#">Lihat Menu</a>
             <a href="#">Pesan Sekarang</a>
         </div>
-        <img src="image/rumah.jpg" alt="Gambar">
+        <img src="../asstes/images/rumah.jpg" alt="Gambar">
     </section>
 
     <section class ="promo">
@@ -46,24 +46,24 @@
             </ul>
             <a href="#" class="btn">Lihat</a>
         </div>
-        <img src="image/rendang.jpg" alt="Promo Image">
+        <img src="../assets/images/rendang.jpg" alt="Promo Image">
     </section>
 
     <section class="menu">
         <h2 style="text-align:center">Nikmati Beragam Menu Lezat yang SiapNikmati Beragam Menu Lezat yang Siap Memanjakan Lidah Anda</h2>
         <div class="menu-items">
             <div class="menu-item">
-                <img src="image/menu1.jpg" alt="menu 1">
+                <img src="../assets/images/menu1.jpg" alt="menu 1">
                 <h3>Rasakan Cita Rasa Minang</h3>
                 <p>Kami menyajikan hidangan khas Padang dengan bahan berkualitas dan resep tradisonal.</p>
             </div>
             <div class="menu-item">
-                <img src="image/menu2.jpg" alt="Menu 2">
+                <img src="../assets/images/menu2.jpg" alt="Menu 2">
                 <h3>Promo menarik setiap hari</h3>
                 <p>Dapatkan diskon spesial dan penawaran menarik setiap harinya.</p>
             </div>
             <div class="menu-item">
-                <img src="image/menu3.jpg" alt="menu 3">
+                <img src="../assets/images/menu3.jpg" alt="menu 3">
                 <h3>Galeri Makanan dan Suasana</h3>
                 <p>Lihat koleksi foto hidangan lezat dan suasana restoran yang menggoda</p>
             </div>
