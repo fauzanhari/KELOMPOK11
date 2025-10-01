@@ -18,7 +18,7 @@
         <h1>Sign Up</h1>
         <p>Silahkan daftar akun terlebih dahulu.</p>
 
-        <form id="signup-form">
+        <form id="signup-form" action = prosesregis.php method="POST" onsubmit="return validasiForm()">
           <div class="form-group">
             <label for="name">Nama*</label>
             <input type="text" id="name" name="name" required />
@@ -26,12 +26,7 @@
 
           <div class="form-group">
             <label for="email">Email*</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-
-          <div class="form-group">
-            <label for="Umur">Umur*</label>
-            <input type="text" id="Umur" name="umur" required />
+            <input type="text" id="email" name="email" required />
           </div>
 
           <div class="form-group">

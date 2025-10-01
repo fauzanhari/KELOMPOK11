@@ -46,14 +46,15 @@
 </head>
 <body>
     <div class="left">
-        <div class="logo">Logo</div>
+        <div class="logo">Kelompok 11</div>
         <h1>LOG IN</h1>
         <p>lorem ipsum dolor sit amet</p>
-        <form>
+
+        <form action="proseslogin.php" method="POST">
             <label for="">Email*</label>
-            <input type="email"required>
+            <input type="text" name ="email" required>
             <label for="">Password*</label>
-            <input type="password"required>
+            <input type="password" name ="password"required>
             <div class="forgot"><a href="#">forgot your password?</a></div>
             <button class="btn-primary" type="submit">log in</button>
             <button class="btn-google" type="button" >
@@ -67,7 +68,7 @@
     <div class="right">
         <div class="section-img">
             <div class="section-img">
-                <img src="../assets/images/1.png" alt="">
+                <img src="../assets/images/logo11.jpg" alt="">
             </div>
         </div>
     </div>
